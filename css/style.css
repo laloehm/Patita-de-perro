@@ -64,6 +64,7 @@ p {
 
 .video video {
     width: 100%;
+    max-width: 850px;
 }
 
 
@@ -72,6 +73,7 @@ p {
     right: 0;
     bottom: 0;
     width: 47%;
+    max-width: 850px;
 }
 
 .video img.patita {
@@ -112,4 +114,136 @@ footer {
 footer img {
     width: 60px;
     margin: 20px;
+}
+
+@media (max-width: 1300px) {
+
+    .home .logo {
+        width: 400px;
+    }
+
+    .home h1 {
+        font-size: 22px;
+    }
+
+    .video {
+        /* height: 870px; */
+        height: 770px;
+    }
+
+    .perro_corona {
+        width: 550px;
+    }
+
+    .paseos img.perro {
+        width: 70%;
+    }
+}
+
+@media(max-width:1023px) {
+    p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .home {
+        height: 480px;
+        min-height: auto;
+    }
+
+    .home img.perro {
+        width: 40%;
+    }
+
+    .home h1 {
+        font-size: 16px;
+    }
+
+    .video {
+        height: 550px;
+    }
+
+    .video img.perro {
+        width: 50%;
+    }
+
+    .perro_corona {
+        width: 100%;
+    }
+
+    .about {
+        height: 400px;
+    }
+
+    footer img {
+        width: 45px;
+        margin: 10px;
+    }
+}
+
+/* Max 768px */
+@media(max-width:767px) {
+    p {
+        font-size: 15px;
+    }
+
+    .home {
+        height: auto;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1.5rem 0;
+    }
+
+    .home h1 {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .home img.perro {
+        width: 100%;
+        position: relative;
+    }
+
+    .about {
+        height: auto;
+    }
+
+    .perro_corona {
+        position: relative;
+    }
+
+    .video {
+        height: auto;
+    }
+
+    .video img.perro {
+        width: 100%;
+        position: relative;
+    }
+
+    .paseos p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .video img.patita {
+        width: 18px;
+        margin-left: -4px;
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    footer img {
+        width: 30px;
+        margin: 5px;
+    }
 }
