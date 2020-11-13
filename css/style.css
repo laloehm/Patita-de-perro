@@ -25,6 +25,7 @@ p {
 
 .row {
     margin: 0;
+    height: 100%;
 }
 
 .home {
@@ -32,6 +33,14 @@ p {
     max-height: 100vh;
     overflow: hidden;
     padding: 4rem 2rem;
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+}
+
+.home img.perro {
+    position: absolute;
+    width: 50%;
 }
 
 .home h1 {
@@ -39,7 +48,6 @@ p {
     font-size: 25px;
     margin-top: 15px;
     font-weight: 200;
-    margin-bottom: 120px;
 }
 
 .home h1 strong {
@@ -63,7 +71,7 @@ p {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 47%;
 }
 
 .video img.patita {
@@ -102,6 +110,6 @@ footer {
 }
 
 footer img {
-    width: 80px;
+    width: 60px;
     margin: 20px;
 }
