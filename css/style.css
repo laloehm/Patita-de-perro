@@ -204,6 +204,10 @@ footer img {
         margin-top: 20px;
     }
 
+    .home h1 strong {
+        display: block;
+    }
+
     .home img.perro {
         width: 100%;
         position: relative;
