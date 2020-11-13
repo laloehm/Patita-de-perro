@@ -39,6 +39,11 @@ p {
     font-size: 25px;
     margin-top: 15px;
     font-weight: 200;
+    margin-bottom: 120px;
+}
+
+.home h1 strong {
+    font-weight: bold;
 }
 
 .home .logo {
