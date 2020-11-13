@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Helvetica-Heavy";
+    src: url("../Fonts/HelveticaNeue-Heavy.ttf");
+}
+
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url("../Fonts/HelveticaNeue-Light.ttf");
+}
+
+h2 {
+    font-family: 'Helvetica-Heavy', serif;
+}
+
+p {
+    font-family: 'Helvetica-Light', serif;
+    font-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 0;
+}
+
+.home {
+    background: #f6a9bd;
+    max-height: 100vh;
+    overflow: hidden;
+    padding: 4rem 2rem;
+}
+
+.home h1 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+
+.home .logo {
+    width: 500px;
+}
+
+.video {
+    height: 950px;
+}
+
+.video video {
+    width: 100%;
+}
+
+
+.video img.perro {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.video img.patita {
+    width: 32px;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.about {
+    background: #95c9e1;
+    height: 500px;
+}
+
+.about .row {
+    height: 100%;
+}
+
+.perro_corona {
+    width: 650px;
+    position: absolute;
+    bottom: 0;
+}
+
+.paseos {
+    background: #f4e0e1;
+}
+
+.paseos p {
+    width: 80%;
+    text-align: center;
+}
+
+footer {
+    background: #86dbd4;
+}
+
+footer img {
+    width: 80px;
+    margin: 20px;
+}
